@@ -1,14 +1,14 @@
-cription í¿  AirBnB is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
+cription ï¿½ï¿½ï¿½ AirBnB is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
 
 The project currently only implements the back-end console.
 
-Classes í¶‘ AirBnB utilizes the following classes:
+Classes ï¿½ï¿½ï¿½ AirBnB utilizes the following classes:
 
-BaseModel FileStorage User State City Amenity Place Review PUBLIC INSTANCE ATTRIBUTES id created_at updated_at Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel PUBLIC INSTANCE METHODS save to_dict all new save reload "" "" "" "" "" "" PUBLIC CLASS ATTRIBUTES email password first_name last_name name state_id name name city_id user_id name description number_rooms number_bathrooms max_guest price_by_night latitude longitude amenity_ids place_id user_id text PRIVATE CLASS ATTRIBUTES file_path objects Storage í»„ The above classes are handled by the abstracted storage engine defined in the FileStorage class.
+BaseModel FileStorage User State City Amenity Place Review PUBLIC INSTANCE ATTRIBUTES id created_at updated_at Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel Inherits from BaseModel PUBLIC INSTANCE METHODS save to_dict all new save reload "" "" "" "" "" "" PUBLIC CLASS ATTRIBUTES email password first_name last_name name state_id name name city_id user_id name description number_rooms number_bathrooms max_guest price_by_night latitude longitude amenity_ids place_id user_id text PRIVATE CLASS ATTRIBUTES file_path objects Storage ï¿½ï¿½ï¿½ The above classes are handled by the abstracted storage engine defined in the FileStorage class.
 
 Every time the backend is initialized, AirBnB instantiates an instance of FileStorage called storage. The storage object is loaded/re-loaded from any class instances stored in the JSON file file.json. As class instances are created, updated, or deleted, the storage object is used to register corresponding changes in the file.json.
 
-Console í²» The console is a command line interpreter that permits management of the backend of AirBnB. It can be used to handle and manipulate all classes utilized by the application (achieved by calls on the storage object defined above).
+Console ï¿½ï¿½ï¿½ The console is a command line interpreter that permits management of the backend of AirBnB. It can be used to handle and manipulate all classes utilized by the application (achieved by calls on the storage object defined above).
 
 Using the Console The AirBnB console can be run both interactively and non-interactively. To run the console in non-interactive mode, pipe any command(s) into an execution of the file console.py at the command line.
 
@@ -28,4 +28,8 @@ all destroy show update
 
 Folder File Description tests Contains test files for AirBnb Clone console.py Command line Interpreter for managing AirBnB objects models base_model.py Defines all common attributes/methods for other classes models amenity.py Creates class amenity models city.py Creates class city models place.py Creates class place models review.py Creates class review models state.py Creates class state models user.py Creates class user models/engine/ file_storage.py Serializes instances to a JSON file and deserializes JSON file to instances To be updated
 
+<<<<<<< HEAD
 AUTHORS: Nsikakabasi Okon
+=======
+AUTHOR: Nsikakabasi Okon
+>>>>>>> 162aacc04240c5dc7ce2a2ded6cd26c72dc1d6b8
