@@ -28,4 +28,4 @@ all destroy show update
 
 Folder File Description tests Contains test files for AirBnb Clone console.py Command line Interpreter for managing AirBnB objects models base_model.py Defines all common attributes/methods for other classes models amenity.py Creates class amenity models city.py Creates class city models place.py Creates class place models review.py Creates class review models state.py Creates class state models user.py Creates class user models/engine/ file_storage.py Serializes instances to a JSON file and deserializes JSON file to instances To be updated
 
-AUTHORS: Ayomide Soniyi , Eze Samuel
+AUTHORS: Nsikakabasi Okon
